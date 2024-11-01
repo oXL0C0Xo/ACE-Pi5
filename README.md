@@ -81,3 +81,9 @@ Enter the password for your SQL server (default: ""): YOUR_DB_PASSWORD
 Do you want to ACEmulator to attempt to initialize your SQL databases? This will erase any existing ACEmulator specific databases that may already exist on the server (Y/n): Y
 
 Do you want to download the latest world database and import it? (Y/n): Y
+
+### Update the Server
+cd /home/YOUR_LINUX_USER/ACE-Pi5
+git pull origin
+cd /home/YOUR_LINUX_USER/ACE-Pi5/Source
+dotnet build
