@@ -84,6 +84,10 @@ Do you want to download the latest world database and import it? (Y/n): Y
 
 ### Update the Server
 cd /home/YOUR_LINUX_USER/ACE-Pi5
+
 git pull origin
+
 cd /home/YOUR_LINUX_USER/ACE-Pi5/Source
+
 dotnet build
+
